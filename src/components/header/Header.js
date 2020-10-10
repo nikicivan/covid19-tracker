@@ -101,6 +101,7 @@ const Header = () => {
           title="Coronavirus Cases"
           total={countryInfo.cases}
           cases={countryInfo.todayCases}
+          casesPerMilion={countryInfo.casesPerOneMillion}
         />
         <InfoBox
           active={casesType === "recovered"}
@@ -108,6 +109,7 @@ const Header = () => {
           title="Recovered"
           total={countryInfo.recovered}
           cases={countryInfo.todayRecovered}
+          casesPerMilion={countryInfo.recoveredPerOneMillion}
         />
         <InfoBox
           isRed
@@ -116,6 +118,7 @@ const Header = () => {
           title="Deaths"
           total={countryInfo.deaths}
           cases={countryInfo.todayDeaths}
+          casesPerMilion={countryInfo.deathsPerOneMillion}
         />
       </div>
     </div>

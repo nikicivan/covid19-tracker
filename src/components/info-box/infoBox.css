@@ -29,6 +29,13 @@
     margin-bottom: 0.5rem;
 }
 
+.infobox__casesPerMillion {
+    color: #cc1034;
+    font-weight: 500;
+    font-size: 1.05rem;
+    margin-bottom: 0.5rem;
+}
+
 .infobox__total {
     color: #6c757d;
     font-weight: 700 !important;
